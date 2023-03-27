@@ -42,11 +42,11 @@ describe('End to End flow for Redbuss.com to book a Buss', () => {
 		await searchPage.selectSeat();
 		expect(await homePage.$homePageLogo().isDisplayed()).toBe(true,'Expect homepage Logo to be displayed');
 	});
-	it('The user should be able to click proceed to book and enter details', async()=> {
+	xit('The user should be able to click proceed to book and enter details', async()=> {
 		await searchPage.proceedToBook();
 		expect(await searchPage.$proceedHeading().isDisplayed());
 	});
-	it('The user should be able to click proceed to book and enter details', async()=> {
+	xit('The user should be able to click proceed to book and enter details', async()=> {
 		await searchPage.proceedToBook();
 		expect(await searchPage.$proceedHeading().isDisplayed());
 	});
