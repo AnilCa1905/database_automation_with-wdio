@@ -12,10 +12,11 @@ class Database extends Common {
         try {
 
             console.log("Reading rows from the Table...");
-            let resultSet = await poolConnection.request().query(`SELECT TOP ${data} pc.Name as CategoryName,
-                p.name as ProductName 
-                FROM [SalesLT].[ProductCategory] pc
-                JOIN [SalesLT].[Product] p ON pc.productcategoryid = p.productcategoryid`);
+            let resultSet = await poolConnection.request().query(`SELECT TOP ${data} 
+            [SalesOrderID]
+                  ,[RevisionNumber]
+                   ,[rowguid]
+                  FROM [SalesLT].[SalesOrderHeader]`);
 
             console.log(`${resultSet.recordset.length} rows returned.`);
 
@@ -27,8 +28,9 @@ class Database extends Common {
 
             let resultsArray = resultSet.recordset.map(row => {
                 return {
-                    CategoryName: row.CategoryName,
-                    ProductName: row.ProductName
+                    SalesOrderID: row.SalesOrderID,
+                    RevisionNumber: row.RevisionNumber,
+                    rowguid: row.rowguid
                 }
             });
 

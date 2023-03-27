@@ -1,0 +1,153 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1679908457351' stop='1679908504496'>
+    <name>End to End flow for Redbuss.com to book a Buss</name>
+    <title>End to End flow for Redbuss.com to book a Buss</title>
+    <test-cases>
+        <test-case start='1679908457353' status='passed' stop='1679908472075'>
+            <name>The user should be able to load the url</name>
+            <title>The user should be able to load the url</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-111.0.5563.111'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='1682e8aa-9b8f-4ae0-8631-68f4c6de9e42-attachment.png' type='image/png' size='844153'/>
+            </attachments>
+        </test-case>
+        <test-case start='1679908472075' status='passed' stop='1679908475222'>
+            <name>The user should be able to enter From destination</name>
+            <title>The user should be able to enter From destination</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-111.0.5563.111'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='41bd55e2-29d3-46c7-8f00-5185683d3bfe-attachment.png' type='image/png' size='845611'/>
+            </attachments>
+        </test-case>
+        <test-case start='1679908475223' status='passed' stop='1679908478926'>
+            <name>The user should be able to enter To destination</name>
+            <title>The user should be able to enter To destination</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-111.0.5563.111'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='3c051827-f27d-434a-b850-2a40f2c19627-attachment.png' type='image/png' size='863585'/>
+            </attachments>
+        </test-case>
+        <test-case start='1679908478927' status='passed' stop='1679908482665'>
+            <name>The user should be able to select a date</name>
+            <title>The user should be able to select a date</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-111.0.5563.111'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='4d681521-f9ee-4dc0-bd2d-59906d635c32-attachment.png' type='image/png' size='850015'/>
+            </attachments>
+        </test-case>
+        <test-case start='1679908482666' status='passed' stop='1679908491334'>
+            <name>The user should be able to search for buss</name>
+            <title>The user should be able to search for buss</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-111.0.5563.111'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='37bafd7b-2d0c-4b64-893e-af550e3f9650-attachment.png' type='image/png' size='174002'/>
+            </attachments>
+        </test-case>
+        <test-case start='1679908491335' status='passed' stop='1679908493571'>
+            <name>The user should be able to select a buss</name>
+            <title>The user should be able to select a buss</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-111.0.5563.111'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='6fc1301b-785b-4453-bf5d-2264420a5d89-attachment.png' type='image/png' size='188801'/>
+            </attachments>
+        </test-case>
+        <test-case start='1679908493573' status='passed' stop='1679908495916'>
+            <name>The user should be able to select a seat</name>
+            <title>The user should be able to select a seat</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-111.0.5563.111'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='5e818893-0ae7-452c-8389-246aa6f96c51-attachment.png' type='image/png' size='153968'/>
+            </attachments>
+        </test-case>
+        <test-case start='1679908495917' status='pending' stop='1679908495920'>
+            <name>The user should be able to click proceed to book and enter details</name>
+            <title>The user should be able to click proceed to book and enter details</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-111.0.5563.111'/>
+                <parameter kind='argument' name='browser' value='chrome-111.0.5563.111'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1679908495921' status='passed' stop='1679908504495'>
+            <name>The user should be able to connectandquerry </name>
+            <title>The user should be able to connectandquerry </title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-111.0.5563.111'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='c61c7579-903f-43bc-ba45-8269c35a0308-attachment.png' type='image/png' size='192614'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
