@@ -80,7 +80,7 @@ exports.config = {
     'acceptInsecureCerts': true,
     'goog:chromeOptions': {
       args: ['--window-size=1920,1080',
-              '--headless', 
+           '--headless', 
         '--incognito',
       ]
       // If outputDir is provided WebdriverIO can capture driver session logs
@@ -96,7 +96,7 @@ exports.config = {
   // Define all options that are relevant for the WebdriverIO instance here
   //
   // Level of logging verbosity: trace | debug | info | warn | error | silent
-  logLevel: "info",
+  logLevel: "silent",
   //
   // Set specific log levels per logger
   // loggers:
