@@ -14,9 +14,9 @@ class Database extends Common {
             console.log("Reading rows from the Table...");
             let resultSet = await poolConnection.request().query(`SELECT TOP ${data} 
             [SalesOrderID]
-                  ,[RevisionNumber]
-                   ,[rowguid]
-                  FROM [SalesLT].[SalesOrderHeader]`);
+            ,[RevisionNumber]
+            ,[rowguid]
+             FROM [SalesLT].[SalesOrderHeader]`);
 
             console.log(`${resultSet.recordset.length} rows returned.`);
 
