@@ -20,9 +20,12 @@ class HomePage extends Common {
 	 * Methods
 	 */
 
+
 	async selectFromDestination()
 	{
 		await this.$fromDestination().setValue("Kochi");
+		await browser.pause('2000')
+		await $('//li[@data-id="216"]').click();
 
 	}
 	async clearFromDestination()
@@ -33,7 +36,9 @@ class HomePage extends Common {
 	async selectToDestination()
 	{
 		await this.$toDestination().setValue("Nilambur");
-		// await browser.pause(3000);
+		 await browser.pause(3000);
+		 await $('//li[@data-id="86873"]').click();
+		 
 		// await this.$to().click();
 	}
 	async selectDate() 
