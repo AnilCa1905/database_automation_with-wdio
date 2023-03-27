@@ -1,10 +1,7 @@
-name: WDIO_database_Connection_Automation
+name: WDIO_database_Connection_Automation_and_json
 
 on:
   workflow_dispatch:
-  push:
-    branches: [ "master" ]
-
 
 jobs:
   build:
@@ -36,3 +33,9 @@ jobs:
       with:
           name: Allure report
           path: test/.artifacts/allure-report/complete.html
+    - name: Upload Results.json
+      if: success() || failure()
+      uses: actions/upload-artifact@v2
+      with:
+          name: Results.json
+          path: results.json      
