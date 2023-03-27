@@ -1,0 +1,40 @@
+{
+    "name": "webdriverio-tests",
+    "version": "0.1.0",
+    "private": true,
+    "devDependencies": {
+        "@wdio/allure-reporter": "^8.3.0",
+        "@wdio/cli": "^8.3.2",
+        "@wdio/jasmine-framework": "^8.3.2",
+        "@wdio/local-runner": "^8.3.2",
+        "@wdio/spec-reporter": "^8.3.0",
+        "allure-commandline": "^2.20.1",
+        "chromedriver": "^111.0.0",
+        "moment-timezone": "^0.5.40",
+        "wdio-chromedriver-service": "^8.0.1",
+        "wdio-wait-for": "^3.0.2"
+    },
+    "scripts": {
+        "redBuss": "wdio run wdio.conf.js",
+        "allureCombine": "node ./node_modules/allure-single-html-file-js/combine.js ./test/.artifacts/allure-report",
+        "openReport": "allure open test/.artifacts/allure-report"
+    },
+    "prettier": {
+        "printWidth": 200,
+        "tabWidth": 4,
+        "useTabs": true,
+        "semi": true,
+        "singleQuote": true,
+        "quoteProps": "consistent",
+        "trailingComma": "es5",
+        "bracketSpacing": false,
+        "arrowParens": "avoid"
+    },
+    "dependencies": {
+        "allure-single-html-file-js": "^0.0.4",
+        "log-to-file": "^3.0.3",
+        "mssql": "^9.1.1",
+        "nvm": "^0.0.4",
+        "webdriverio": "^8.3.2"
+    }
+}
