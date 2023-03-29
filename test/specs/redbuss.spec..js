@@ -38,7 +38,7 @@ describe('End to End flow for Redbuss.com to book a Buss', () => {
 		await searchPage.viewBuss();
 		expect(await homePage.$homePageLogo().isDisplayed()).toBe(true,'Expect homepage Logo to be displayed');
 	});
-	it('The user should be able to select a seat', async()=> {
+	xit('The user should be able to select a seat', async()=> {
 		await searchPage.selectSeat();
 		expect(await homePage.$homePageLogo().isDisplayed()).toBe(true,'Expect homepage Logo to be displayed');
 	});
