@@ -1,78 +1,192 @@
 [
   {
-    "SalesOrderID": 71774,
-    "RevisionNumber": 2
+    "AddressID": 9,
+    "AddressLine1": 9,
+    "PostalCode": "268AF621-76D7-4C78-9441-144FD139821A",
+    "CountryRegion": "United States",
+    "rowguid": "268AF621-76D7-4C78-9441-144FD139821A",
+    "StateProvince": "Washington",
+    "City": "Bothell",
+    "ModifiedDate": "2006-07-01T00:00:00.000Z"
   },
   {
-    "SalesOrderID": 71776,
-    "RevisionNumber": 2
+    "AddressID": 11,
+    "AddressLine1": 11,
+    "PostalCode": "981B3303-ACA2-49C7-9A96-FB670785B269",
+    "CountryRegion": "United States",
+    "rowguid": "981B3303-ACA2-49C7-9A96-FB670785B269",
+    "StateProvince": "Washington",
+    "City": "Bothell",
+    "ModifiedDate": "2007-04-01T00:00:00.000Z"
   },
   {
-    "SalesOrderID": 71780,
-    "RevisionNumber": 2
+    "AddressID": 25,
+    "AddressLine1": 25,
+    "PostalCode": "C8DF3BD9-48F0-4654-A8DD-14A67A84D3C6",
+    "CountryRegion": "United States",
+    "rowguid": "C8DF3BD9-48F0-4654-A8DD-14A67A84D3C6",
+    "StateProvince": "Texas",
+    "City": "Dallas",
+    "ModifiedDate": "2006-09-01T00:00:00.000Z"
   },
   {
-    "SalesOrderID": 71782,
-    "RevisionNumber": 2
+    "AddressID": 28,
+    "AddressLine1": 28,
+    "PostalCode": "12AE5EE1-FC3E-468B-9B92-3B970B169774",
+    "CountryRegion": "United States",
+    "rowguid": "12AE5EE1-FC3E-468B-9B92-3B970B169774",
+    "StateProvince": "Arizona",
+    "City": "Phoenix",
+    "ModifiedDate": "2005-09-01T00:00:00.000Z"
   },
   {
-    "SalesOrderID": 71783,
-    "RevisionNumber": 2
+    "AddressID": 32,
+    "AddressLine1": 32,
+    "PostalCode": "84A95F62-3AE8-4E7E-BBD5-5A6F00CD982D",
+    "CountryRegion": "Canada",
+    "rowguid": "84A95F62-3AE8-4E7E-BBD5-5A6F00CD982D",
+    "StateProvince": "Quebec",
+    "City": "Montreal",
+    "ModifiedDate": "2006-08-01T00:00:00.000Z"
   },
   {
-    "SalesOrderID": 71784,
-    "RevisionNumber": 2
+    "AddressID": 185,
+    "AddressLine1": 185,
+    "PostalCode": "7BCCF442-2268-46CC-8472-14C44C14E98C",
+    "CountryRegion": "United States",
+    "rowguid": "7BCCF442-2268-46CC-8472-14C44C14E98C",
+    "StateProvince": "Washington",
+    "City": "Bellevue",
+    "ModifiedDate": "2006-09-01T00:00:00.000Z"
   },
   {
-    "SalesOrderID": 71796,
-    "RevisionNumber": 2
+    "AddressID": 297,
+    "AddressLine1": 297,
+    "PostalCode": "52410DA4-2778-4B1D-A599-95746625CE6D",
+    "CountryRegion": "United States",
+    "rowguid": "52410DA4-2778-4B1D-A599-95746625CE6D",
+    "StateProvince": "Washington",
+    "City": "Renton",
+    "ModifiedDate": "2006-08-01T00:00:00.000Z"
   },
   {
-    "SalesOrderID": 71797,
-    "RevisionNumber": 2
+    "AddressID": 445,
+    "AddressLine1": 445,
+    "PostalCode": "53572F25-9133-4A8B-A065-102FF35416EE",
+    "CountryRegion": "Canada",
+    "rowguid": "53572F25-9133-4A8B-A065-102FF35416EE",
+    "StateProvince": "British Columbia",
+    "City": "Burnaby",
+    "ModifiedDate": "2006-09-01T00:00:00.000Z"
   },
   {
-    "SalesOrderID": 71815,
-    "RevisionNumber": 2
+    "AddressID": 446,
+    "AddressLine1": 446,
+    "PostalCode": "801A1DFC-5125-486B-AA84-CCBD2EC57CA4",
+    "CountryRegion": "Canada",
+    "rowguid": "801A1DFC-5125-486B-AA84-CCBD2EC57CA4",
+    "StateProvince": "Ontario",
+    "City": "Toronto",
+    "ModifiedDate": "2005-08-01T00:00:00.000Z"
   },
   {
-    "SalesOrderID": 71816,
-    "RevisionNumber": 2
+    "AddressID": 447,
+    "AddressLine1": 447,
+    "PostalCode": "88CEE379-DBB8-433B-B84E-A35E09435500",
+    "CountryRegion": "Canada",
+    "rowguid": "88CEE379-DBB8-433B-B84E-A35E09435500",
+    "StateProvince": "Ontario",
+    "City": "Toronto",
+    "ModifiedDate": "2006-08-01T00:00:00.000Z"
   },
   {
-    "SalesOrderID": 71831,
-    "RevisionNumber": 2
+    "AddressID": 448,
+    "AddressLine1": 448,
+    "PostalCode": "2DF6D0AD-0926-4F34-A450-9B1083150CBF",
+    "CountryRegion": "Canada",
+    "rowguid": "2DF6D0AD-0926-4F34-A450-9B1083150CBF",
+    "StateProvince": "Ontario",
+    "City": "Toronto",
+    "ModifiedDate": "2007-08-01T00:00:00.000Z"
   },
   {
-    "SalesOrderID": 71832,
-    "RevisionNumber": 2
+    "AddressID": 449,
+    "AddressLine1": 449,
+    "PostalCode": "8B5A7729-CB75-4303-A607-7F9793B4D94F",
+    "CountryRegion": "Canada",
+    "rowguid": "8B5A7729-CB75-4303-A607-7F9793B4D94F",
+    "StateProvince": "Ontario",
+    "City": "Chalk Riber",
+    "ModifiedDate": "2005-08-01T00:00:00.000Z"
   },
   {
-    "SalesOrderID": 71845,
-    "RevisionNumber": 2
+    "AddressID": 450,
+    "AddressLine1": 450,
+    "PostalCode": "5F3C345A-6475-41D5-B17B-DB8D27733BB1",
+    "CountryRegion": "Canada",
+    "rowguid": "5F3C345A-6475-41D5-B17B-DB8D27733BB1",
+    "StateProvince": "Quebec",
+    "City": "Quebec",
+    "ModifiedDate": "2006-09-01T00:00:00.000Z"
   },
   {
-    "SalesOrderID": 71846,
-    "RevisionNumber": 2
+    "AddressID": 451,
+    "AddressLine1": 451,
+    "PostalCode": "49644F1E-6F90-46D9-8DBB-9DB15F0EF7EC",
+    "CountryRegion": "Canada",
+    "rowguid": "49644F1E-6F90-46D9-8DBB-9DB15F0EF7EC",
+    "StateProvince": "Alberta",
+    "City": "Calgary",
+    "ModifiedDate": "2006-12-01T00:00:00.000Z"
   },
   {
-    "SalesOrderID": 71856,
-    "RevisionNumber": 2
+    "AddressID": 452,
+    "AddressLine1": 452,
+    "PostalCode": "A358652F-0E00-49E6-B6B0-DE1099C43506",
+    "CountryRegion": "Canada",
+    "rowguid": "A358652F-0E00-49E6-B6B0-DE1099C43506",
+    "StateProvince": "Ontario",
+    "City": "Toronto",
+    "ModifiedDate": "2005-09-01T00:00:00.000Z"
   },
   {
-    "SalesOrderID": 71858,
-    "RevisionNumber": 2
+    "AddressID": 453,
+    "AddressLine1": 453,
+    "PostalCode": "355681F2-4D9D-4522-BFA0-105BE64394D8",
+    "CountryRegion": "Canada",
+    "rowguid": "355681F2-4D9D-4522-BFA0-105BE64394D8",
+    "StateProvince": "Quebec",
+    "City": "Montreal",
+    "ModifiedDate": "2007-09-01T00:00:00.000Z"
   },
   {
-    "SalesOrderID": 71863,
-    "RevisionNumber": 2
+    "AddressID": 454,
+    "AddressLine1": 454,
+    "PostalCode": "EF4DC57D-8B8B-4074-B5F0-ACBEF65DBEC1",
+    "CountryRegion": "Canada",
+    "rowguid": "EF4DC57D-8B8B-4074-B5F0-ACBEF65DBEC1",
+    "StateProvince": "Ontario",
+    "City": "Toronto",
+    "ModifiedDate": "2007-08-01T00:00:00.000Z"
   },
   {
-    "SalesOrderID": 71867,
-    "RevisionNumber": 2
+    "AddressID": 455,
+    "AddressLine1": 455,
+    "PostalCode": "43D582CF-E95F-4861-BA60-2DC7121410A6",
+    "CountryRegion": "Canada",
+    "rowguid": "43D582CF-E95F-4861-BA60-2DC7121410A6",
+    "StateProvince": "Ontario",
+    "City": "Weston",
+    "ModifiedDate": "2006-08-01T00:00:00.000Z"
   },
   {
-    "SalesOrderID": 71885,
-    "RevisionNumber": 2
+    "AddressID": 456,
+    "AddressLine1": 456,
+    "PostalCode": "2F3B383E-08A5-407D-AB1B-A1390E87A888",
+    "CountryRegion": "Canada",
+    "rowguid": "2F3B383E-08A5-407D-AB1B-A1390E87A888",
+    "StateProvince": "British Columbia",
+    "City": "Burnaby",
+    "ModifiedDate": "2006-08-01T00:00:00.000Z"
   }
 ]

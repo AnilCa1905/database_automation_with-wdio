@@ -1,9 +1,9 @@
 <?xml version='1.0'?>
-<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1679910480844' stop='1679910509615'>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1679985974152' stop='1679986031262'>
     <name>End to End flow for Redbuss.com to book a Buss</name>
     <title>End to End flow for Redbuss.com to book a Buss</title>
     <test-cases>
-        <test-case start='1679910480847' status='passed' stop='1679910490876'>
+        <test-case start='1679985974155' status='passed' stop='1679985997029'>
             <name>The user should be able to load the url</name>
             <title>The user should be able to load the url</title>
             <labels>
@@ -16,10 +16,10 @@
             </parameters>
             <steps/>
             <attachments>
-                <attachment title='Screenshot' source='b9372eb4-0eea-42ca-9097-9162cd4e90ed-attachment.png' type='image/png' size='844124'/>
+                <attachment title='Screenshot' source='89437540-d150-406b-80ef-90c79be4612d-attachment.png' type='image/png' size='844153'/>
             </attachments>
         </test-case>
-        <test-case start='1679910490877' status='passed' stop='1679910493647'>
+        <test-case start='1679985997030' status='passed' stop='1679986000848'>
             <name>The user should be able to enter From destination</name>
             <title>The user should be able to enter From destination</title>
             <labels>
@@ -32,10 +32,10 @@
             </parameters>
             <steps/>
             <attachments>
-                <attachment title='Screenshot' source='a2a29885-8108-467c-abca-d51a5e4cc4c7-attachment.png' type='image/png' size='845540'/>
+                <attachment title='Screenshot' source='32126dd8-2fe1-47f0-a8d6-232dbf7a29de-attachment.png' type='image/png' size='845574'/>
             </attachments>
         </test-case>
-        <test-case start='1679910493647' status='passed' stop='1679910497468'>
+        <test-case start='1679986000849' status='passed' stop='1679986004988'>
             <name>The user should be able to enter To destination</name>
             <title>The user should be able to enter To destination</title>
             <labels>
@@ -48,10 +48,10 @@
             </parameters>
             <steps/>
             <attachments>
-                <attachment title='Screenshot' source='cb746fb7-b631-4b86-81c8-0403eee8d53f-attachment.png' type='image/png' size='863585'/>
+                <attachment title='Screenshot' source='2230dc28-4356-4666-9e6b-2b2db2855f8a-attachment.png' type='image/png' size='863504'/>
             </attachments>
         </test-case>
-        <test-case start='1679910497469' status='passed' stop='1679910501066'>
+        <test-case start='1679986004989' status='passed' stop='1679986009000'>
             <name>The user should be able to select a date</name>
             <title>The user should be able to select a date</title>
             <labels>
@@ -64,10 +64,10 @@
             </parameters>
             <steps/>
             <attachments>
-                <attachment title='Screenshot' source='abcc8edf-5b4f-473c-a4de-01555810cccd-attachment.png' type='image/png' size='850058'/>
+                <attachment title='Screenshot' source='6c9e8dd8-8cb6-4cc5-83b9-ef6d021beb17-attachment.png' type='image/png' size='850051'/>
             </attachments>
         </test-case>
-        <test-case start='1679910501066' status='passed' stop='1679910504359'>
+        <test-case start='1679986009000' status='passed' stop='1679986023016'>
             <name>The user should be able to search for buss</name>
             <title>The user should be able to search for buss</title>
             <labels>
@@ -80,10 +80,10 @@
             </parameters>
             <steps/>
             <attachments>
-                <attachment title='Screenshot' source='3f192197-8ee3-448f-acaf-2c0cca2d8d7f-attachment.png' type='image/png' size='174002'/>
+                <attachment title='Screenshot' source='5256b471-117e-4592-904e-0bcccbe0e674-attachment.png' type='image/png' size='169737'/>
             </attachments>
         </test-case>
-        <test-case start='1679910504359' status='passed' stop='1679910504770'>
+        <test-case start='1679986023017' status='passed' stop='1679986023663'>
             <name>The user should be able to select a buss</name>
             <title>The user should be able to select a buss</title>
             <labels>
@@ -96,10 +96,10 @@
             </parameters>
             <steps/>
             <attachments>
-                <attachment title='Screenshot' source='fd3cd34b-f125-4c79-b1a4-7470c451cac0-attachment.png' type='image/png' size='186396'/>
+                <attachment title='Screenshot' source='c17892f0-b583-4810-ac00-28989aeaff75-attachment.png' type='image/png' size='184402'/>
             </attachments>
         </test-case>
-        <test-case start='1679910504771' status='passed' stop='1679910507037'>
+        <test-case start='1679986023663' status='passed' stop='1679986025935'>
             <name>The user should be able to select a seat</name>
             <title>The user should be able to select a seat</title>
             <labels>
@@ -112,10 +112,10 @@
             </parameters>
             <steps/>
             <attachments>
-                <attachment title='Screenshot' source='d5de3358-ab60-4511-88f9-a9a868adc25a-attachment.png' type='image/png' size='192614'/>
+                <attachment title='Screenshot' source='07a7d88c-6840-424c-b5dc-03db9e6962d3-attachment.png' type='image/png' size='187169'/>
             </attachments>
         </test-case>
-        <test-case start='1679910507037' status='pending' stop='1679910507039'>
+        <test-case start='1679986025936' status='pending' stop='1679986025938'>
             <name>The user should be able to click proceed to book and enter details</name>
             <title>The user should be able to click proceed to book and enter details</title>
             <labels>
@@ -133,7 +133,7 @@
             <steps/>
             <attachments/>
         </test-case>
-        <test-case start='1679910507040' status='passed' stop='1679910509614'>
+        <test-case start='1679986025939' status='passed' stop='1679986031260'>
             <name>The user should be able to connectandquerry </name>
             <title>The user should be able to connectandquerry </title>
             <labels>
@@ -146,7 +146,7 @@
             </parameters>
             <steps/>
             <attachments>
-                <attachment title='Screenshot' source='56c31fd3-81b4-4452-95f5-7b4df67d7ce9-attachment.png' type='image/png' size='192614'/>
+                <attachment title='Screenshot' source='8d815ac7-8e3c-437c-a71f-375795cc2f91-attachment.png' type='image/png' size='187169'/>
             </attachments>
         </test-case>
     </test-cases>
